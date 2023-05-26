@@ -1,0 +1,40 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 280px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+.first{
+    width: 85%;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+}
+.second{
+    width: 85%;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
